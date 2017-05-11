@@ -1,7 +1,8 @@
 /**
 * Clase que calcula el factorial de un número.
-* @author IES Juan de Garay
+* @author ENTORNOS DE DESARROLLO (1º DAW)
 * @version 2017
+* PRÁCTICANDO CON GIT
 */
 public class Factorial {
 
