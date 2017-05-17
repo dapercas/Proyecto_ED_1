@@ -1,0 +1,30 @@
+package u07s03ex11;
+
+
+public class CuentaLongitud {
+    private int longitud;
+    private static int longitudTotal;
+    public CuentaLongitud(String cadena){
+        longitud = cadena.length();
+        longitudTotal += longitud;
+    }
+    
+    public int dameTamanyo1(){
+       return longitud;
+    }
+    
+    public static int dameTotal1(){
+        return longitudTotal;
+    }
+    
+    public static void main(String[] args) {
+        CuentaLongitud cl1 = new CuentaLongitud ("Hola");
+        CuentaLongitud cl2 = new CuentaLongitud ("Adios");
+        
+        System.out.println(cl1.dameTamanyo1());
+        System.out.println(cl2.dameTamanyo1());
+        
+        System.out.println(CuentaLongitud.dameTotal1());
+    }
+    
+}
