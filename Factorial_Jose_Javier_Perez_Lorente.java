@@ -1,15 +1,16 @@
 /** 
-* Clase que calcula el factorial de un número. 
-* @author José Javier Pérez Lorente 
+* Clase que calcula el factorial de un nÃºmero. 
+* @author JosÃ© Javier PÃ©rez Lorente 
 * @version 2017 
 */
 
 public class Factorial {
     
 	/** 
+	Prueba
 	 * Calcula el factorial de n. 
 	 * N! = N * (n-1) * (n-2) * (n-3) * ... * 1 
-	 * @param n es el número al que se calculará el factorial. 
+	 * @param n es el nÃºmero al que se calcularÃ¡ el factorial. 
 	 * @return n! es el resultado del factorial de n 
 	 */
 	
