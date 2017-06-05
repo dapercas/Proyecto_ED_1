@@ -7,7 +7,6 @@
 public class Factorial {
     
 	/** 
-	Prueba
 	 * Calcula el factorial de n. 
 	 * N! = N * (n-1) * (n-2) * (n-3) * ... * 1 
 	 * @param n es el número al que se calculará el factorial. 
